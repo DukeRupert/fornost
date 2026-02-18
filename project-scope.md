@@ -8,7 +8,7 @@ Named after the ancient capital of Arnor — the administrative seat from which 
 
 ## Repository
 
-`github.com/fireflysoftware/fornost`
+`github.com/dukerupert/fornost`
 
 ## Status
 
