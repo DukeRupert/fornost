@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dukerupert/fornost/internal/hetzner"
+	"github.com/dukerupert/fornost/pkg/hetzner"
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
 )
