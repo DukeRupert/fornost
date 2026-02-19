@@ -220,12 +220,12 @@ type Action struct {
 
 // --- API methods ---
 
-// Ping validates the API token by hitting GET /actions with a low per_page.
+// Ping validates the API token by listing servers with a low per_page.
 func (c *Client) Ping() error {
 	var resp struct {
-		Actions []Action `json:"actions"`
+		Servers []Server `json:"servers"`
 	}
-	return c.get("/actions?per_page=1", &resp)
+	return c.get("/servers?per_page=1", &resp)
 }
 
 // ListServers returns all servers in the project, handling pagination.
